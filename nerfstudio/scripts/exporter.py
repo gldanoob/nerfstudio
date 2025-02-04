@@ -94,6 +94,55 @@ def validate_pipeline(normal_method: str, normal_output_name: str, pipeline: Pip
             CONSOLE.print("[bold yellow]Exiting early.")
             sys.exit(1)
 
+@dataclass
+class ExportFYPMesh(Exporter):
+    """FYP Exporter (Based on Poisson Mesh)"""
+
+    num_points: int = 1000000
+    """Number of points to generate. May result in less if outlier removal is used."""
+    remove_outliers: bool = True
+    """Remove outliers from the point cloud."""
+    reorient_normals: bool = True
+    """Reorient point cloud normals based on view direction."""
+    depth_output_name: str = "depth"
+    """Name of the depth output."""
+    rgb_output_name: str = "rgb"
+    """Name of the RGB output."""
+    normal_method: Literal["open3d", "model_output"] = "model_output"
+    """Method to estimate normals with."""
+    normal_output_name: str = "normals"
+    """Name of the normal output."""
+    save_point_cloud: bool = False
+    """Whether to save the point cloud."""
+    use_bounding_box: bool = True
+    """Only query points within the bounding box"""
+    bounding_box_min: Tuple[float, float, float] = (-1, -1, -1)
+    """Minimum of the bounding box, used if use_bounding_box is True."""
+    bounding_box_max: Tuple[float, float, float] = (1, 1, 1)
+    """Minimum of the bounding box, used if use_bounding_box is True."""
+    obb_center: Optional[Tuple[float, float, float]] = None
+    """Center of the oriented bounding box."""
+    obb_rotation: Optional[Tuple[float, float, float]] = None
+    """Rotation of the oriented bounding box. Expressed as RPY Euler angles in radians"""
+    obb_scale: Optional[Tuple[float, float, float]] = None
+    """Scale of the oriented bounding box along each axis."""
+    num_rays_per_batch: int = 32768
+    """Number of rays to evaluate per batch. Decrease if you run out of memory."""
+    texture_method: Literal["point_cloud", "nerf"] = "nerf"
+    """Method to texture the mesh with. Either 'point_cloud' or 'nerf'."""
+    px_per_uv_triangle: int = 4
+    """Number of pixels per UV triangle."""
+    unwrap_method: Literal["xatlas", "custom"] = "xatlas"
+    """The method to use for unwrapping the mesh."""
+    num_pixels_per_side: int = 2048
+    """If using xatlas for unwrapping, the pixels per side of the texture image."""
+    target_num_faces: Optional[int] = 50000
+    """Target number of faces for the mesh to texture."""
+    std_ratio: float = 10.0
+    """Threshold based on STD of the average distances across the point cloud to remove outliers."""
+
+    def main(self) -> None:
+        pass
 
 @dataclass
 class ExportPointCloud(Exporter):
@@ -663,11 +712,13 @@ Commands = tyro.conf.FlagConversionOff[
         Annotated[ExportMarchingCubesMesh, tyro.conf.subcommand(name="marching-cubes")],
         Annotated[ExportCameraPoses, tyro.conf.subcommand(name="cameras")],
         Annotated[ExportGaussianSplat, tyro.conf.subcommand(name="gaussian-splat")],
+        Annotated[ExportFYPMesh, tyro.conf.subcommand(name="fyp")],
     ]
 ]
 
 
 def entrypoint():
+    print("=== RUNNING CUSTOM EXPORTER ===\n\n\n")
     """Entrypoint for use with pyproject scripts."""
     tyro.extras.set_accent_color("bright_yellow")
     tyro.cli(Commands).main()
