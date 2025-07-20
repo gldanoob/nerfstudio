@@ -1,0 +1,17 @@
+{
+  "experiment_name": "grass",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs/grass/nerfacto/2025-03-29_165725/nerfstudio_models/step-000029999.ckpt",
+  "results": {
+    "psnr": 22.759599685668945,
+    "psnr_std": 2.0025360584259033,
+    "ssim": 0.8889033198356628,
+    "ssim_std": 0.02607637830078602,
+    "lpips": 0.11595101654529572,
+    "lpips_std": 0.04892826825380325,
+    "num_rays_per_sec": 380682.9375,
+    "num_rays_per_sec_std": 9419.052734375,
+    "fps": 0.32637426257133484,
+    "fps_std": 0.008075320161879063
+  }
+}

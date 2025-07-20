@@ -1,0 +1,17 @@
+
+Loading file exports/final/money_no_vase/poisson_mesh.ply with the following parameters:
+{}
+
+=== Mesh Statistics ===
+1902759 faces
+960916 vertices
+=======================
+
+
+
+---> Comparing poisson mesh (target) with ground truth (source)
+0.011517049744725227
+
+
+
+---> Comparing ground truth (target) with poisson mesh (source)

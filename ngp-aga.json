@@ -1,0 +1,17 @@
+{
+  "experiment_name": "agapanthus",
+  "method_name": "instant-ngp-bounded",
+  "checkpoint": "outputs/agapanthus/instant-ngp-bounded/2025-04-17_104842/nerfstudio_models/step-000029999.ckpt",
+  "results": {
+    "psnr": 27.64002227783203,
+    "psnr_std": 1.0086699724197388,
+    "ssim": 0.9403174519538879,
+    "ssim_std": 0.005669125355780125,
+    "lpips": 0.043863698840141296,
+    "lpips_std": 0.004589864052832127,
+    "num_rays_per_sec": 1856271.5,
+    "num_rays_per_sec_std": 288697.65625,
+    "fps": 1.5914535522460938,
+    "fps_std": 0.24751169979572296
+  }
+}

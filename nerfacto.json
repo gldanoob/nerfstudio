@@ -1,0 +1,113 @@
+{
+  "experiment_name": "agapanthus",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs/agapanthus/nerfacto/2025-03-26_171329/nerfstudio_models/step-000029999.ckpt",
+  "results": {
+    "psnr": 18.03549575805664,
+    "psnr_std": 1.4420011043548584,
+    "ssim": 0.8410153388977051,
+    "ssim_std": 0.0252298004925251,
+    "lpips": 0.20297589898109436,
+    "lpips_std": 0.038958970457315445,
+    "num_rays_per_sec": 369480.09375,
+    "num_rays_per_sec_std": 17616.65625,
+    "fps": 0.31676962971687317,
+    "fps_std": 0.015103441663086414
+  }
+}{
+  "experiment_name": "bush",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs/bush/nerfacto/2025-04-15_053150/nerfstudio_models/step-000029999.ckpt",
+  "results": {
+    "psnr": 18.773603439331055,
+    "psnr_std": 1.70802640914917,
+    "ssim": 0.855297863483429,
+    "ssim_std": 0.030374331399798393,
+    "lpips": 0.2182122766971588,
+    "lpips_std": 0.05995558574795723,
+    "num_rays_per_sec": 378793.1875,
+    "num_rays_per_sec_std": 8393.98828125,
+    "fps": 0.32475408911705017,
+    "fps_std": 0.007196494378149509
+  }
+}{
+  "experiment_name": "grass",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs/grass/nerfacto/2025-03-29_165725/nerfstudio_models/step-000029999.ckpt",
+  "results": {
+    "psnr": 22.759599685668945,
+    "psnr_std": 2.0025360584259033,
+    "ssim": 0.8889033198356628,
+    "ssim_std": 0.02607637830078602,
+    "lpips": 0.11595101654529572,
+    "lpips_std": 0.04892826825380325,
+    "num_rays_per_sec": 380682.9375,
+    "num_rays_per_sec_std": 9419.052734375,
+    "fps": 0.32637426257133484,
+    "fps_std": 0.008075320161879063
+  }
+}{
+  "experiment_name": "money_no_vase",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs/money_no_vase/nerfacto/2025-03-26_155754/nerfstudio_models/step-000029999.ckpt",
+  "results": {
+    "psnr": 19.839574813842773,
+    "psnr_std": 1.510792851448059,
+    "ssim": 0.8888263702392578,
+    "ssim_std": 0.014817151241004467,
+    "lpips": 0.16598094999790192,
+    "lpips_std": 0.02625972218811512,
+    "num_rays_per_sec": 367983.0,
+    "num_rays_per_sec_std": 14411.5498046875,
+    "fps": 0.3154861032962799,
+    "fps_std": 0.012355579063296318
+  }
+}{
+  "experiment_name": "palm",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs/palm/nerfacto/2025-03-26_174154/nerfstudio_models/step-000029999.ckpt",
+  "results": {
+    "psnr": 15.14848518371582,
+    "psnr_std": 1.2981364727020264,
+    "ssim": 0.8615673184394836,
+    "ssim_std": 0.019197380170226097,
+    "lpips": 0.17921411991119385,
+    "lpips_std": 0.02769523300230503,
+    "num_rays_per_sec": 377560.21875,
+    "num_rays_per_sec_std": 15763.9951171875,
+    "fps": 0.323697030544281,
+    "fps_std": 0.013515083119273186
+  }
+}{
+  "experiment_name": "palm2",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs/palm2/nerfacto/2025-04-14_070905/nerfstudio_models/step-000029999.ckpt",
+  "results": {
+    "psnr": 9.118560791015625,
+    "psnr_std": 0.8745192885398865,
+    "ssim": 0.7109465599060059,
+    "ssim_std": 0.04888806864619255,
+    "lpips": 0.40925365686416626,
+    "lpips_std": 0.06052732467651367,
+    "num_rays_per_sec": 340857.40625,
+    "num_rays_per_sec_std": 13005.8642578125,
+    "fps": 0.2922303080558777,
+    "fps_std": 0.011150429956614971
+  }
+}{
+  "experiment_name": "tree_no_vase",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs/tree_no_vase/nerfacto/2025-03-26_161904/nerfstudio_models/step-000029999.ckpt",
+  "results": {
+    "psnr": 19.661788940429688,
+    "psnr_std": 1.8762208223342896,
+    "ssim": 0.9073960185050964,
+    "ssim_std": 0.013862772844731808,
+    "lpips": 0.16386845707893372,
+    "lpips_std": 0.030511239543557167,
+    "num_rays_per_sec": 368548.8125,
+    "num_rays_per_sec_std": 14617.94921875,
+    "fps": 0.3159711956977844,
+    "fps_std": 0.012532537803053856
+  }
+}

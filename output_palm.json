@@ -1,0 +1,17 @@
+{
+  "experiment_name": "palm",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs/palm/nerfacto/2025-03-26_174154/nerfstudio_models/step-000029999.ckpt",
+  "results": {
+    "psnr": 15.14848518371582,
+    "psnr_std": 1.2981364727020264,
+    "ssim": 0.8615673184394836,
+    "ssim_std": 0.019197380170226097,
+    "lpips": 0.17921411991119385,
+    "lpips_std": 0.02769523300230503,
+    "num_rays_per_sec": 377560.21875,
+    "num_rays_per_sec_std": 15763.9951171875,
+    "fps": 0.323697030544281,
+    "fps_std": 0.013515083119273186
+  }
+}

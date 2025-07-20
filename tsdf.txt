@@ -1,0 +1,267 @@
+
+Loading file exports/tsdf/money_no_vase/tsdf_mesh.ply with the following parameters:
+{}
+
+=== Mesh Statistics ===
+160076 faces
+80914 vertices
+=======================
+
+
+
+---> Comparing poisson mesh (target) with ground truth (source)
+0.016112083569169044
+
+
+
+---> Comparing ground truth (target) with poisson mesh (source)
+0.016030529513955116
+
+
+
+Running none: stopping after cleaning stage
+{'cleaning': 'none', 'clustering': 'sample', 'smoothing': 'depth', 'post_processing': 'close_holes', 'all': 'default'}
+No cleaning (process only)
+
+Saving file /home/gldanoob/dev/nerfstudio_dev/exports/tsdf/money_no_vase/none.ply with the following parameters:
+{'binary': True}
+
+Finished in 0.08 seconds
+
+---> Comparing none mesh (target) with ground truth (source)
+0.016112083569169044
+---> Comparing ground truth (target) with none mesh (source)
+0.016030529513955116
+
+Loading file exports/tsdf/tree_no_vase/tsdf_mesh.ply with the following parameters:
+{}
+
+=== Mesh Statistics ===
+86824 faces
+44699 vertices
+=======================
+
+
+
+---> Comparing poisson mesh (target) with ground truth (source)
+0.017565272748470306
+
+
+
+---> Comparing ground truth (target) with poisson mesh (source)
+0.013199243694543839
+
+
+
+Running none: stopping after cleaning stage
+{'cleaning': 'none', 'clustering': 'sample', 'smoothing': 'depth', 'post_processing': 'close_holes', 'all': 'default'}
+No cleaning (process only)
+
+Saving file /home/gldanoob/dev/nerfstudio_dev/exports/tsdf/tree_no_vase/none.ply with the following parameters:
+{'binary': True}
+
+Finished in 0.04 seconds
+
+---> Comparing none mesh (target) with ground truth (source)
+0.017565272748470306
+---> Comparing ground truth (target) with none mesh (source)
+0.013199243694543839
+
+Loading file exports/tsdf/palm/tsdf_mesh.ply with the following parameters:
+{}
+
+=== Mesh Statistics ===
+59170 faces
+32985 vertices
+=======================
+
+
+
+---> Comparing poisson mesh (target) with ground truth (source)
+0.02163141779601574
+
+
+
+---> Comparing ground truth (target) with poisson mesh (source)
+0.013172362931072712
+
+
+
+Running none: stopping after cleaning stage
+{'cleaning': 'none', 'clustering': 'sample', 'smoothing': 'depth', 'post_processing': 'close_holes', 'all': 'default'}
+No cleaning (process only)
+
+Saving file /home/gldanoob/dev/nerfstudio_dev/exports/tsdf/palm/none.ply with the following parameters:
+{'binary': True}
+
+Finished in 0.03 seconds
+
+---> Comparing none mesh (target) with ground truth (source)
+0.02163141779601574
+---> Comparing ground truth (target) with none mesh (source)
+0.013172362931072712
+
+Loading file exports/tsdf/palm2/tsdf_mesh.ply with the following parameters:
+{}
+
+=== Mesh Statistics ===
+181354 faces
+95793 vertices
+=======================
+
+
+
+---> Comparing poisson mesh (target) with ground truth (source)
+0.017069300636649132
+
+
+
+---> Comparing ground truth (target) with poisson mesh (source)
+0.011821320280432701
+
+
+
+Running none: stopping after cleaning stage
+{'cleaning': 'none', 'clustering': 'sample', 'smoothing': 'depth', 'post_processing': 'close_holes', 'all': 'default'}
+No cleaning (process only)
+
+Saving file /home/gldanoob/dev/nerfstudio_dev/exports/tsdf/palm2/none.ply with the following parameters:
+{'binary': True}
+
+Finished in 0.09 seconds
+
+---> Comparing none mesh (target) with ground truth (source)
+0.017069300636649132
+---> Comparing ground truth (target) with none mesh (source)
+0.011821320280432701
+
+Loading file exports/tsdf/bush/tsdf_mesh.ply with the following parameters:
+{}
+
+=== Mesh Statistics ===
+93932 faces
+49531 vertices
+=======================
+
+
+
+---> Comparing poisson mesh (target) with ground truth (source)
+0.052114810794591904
+
+
+
+---> Comparing ground truth (target) with poisson mesh (source)
+0.012226708233356476
+
+
+
+Running none: stopping after cleaning stage
+{'cleaning': 'none', 'clustering': 'sample', 'smoothing': 'depth', 'post_processing': 'close_holes', 'all': 'default'}
+No cleaning (process only)
+
+Saving file /home/gldanoob/dev/nerfstudio_dev/exports/tsdf/bush/none.ply with the following parameters:
+{'binary': True}
+
+Finished in 0.04 seconds
+
+---> Comparing none mesh (target) with ground truth (source)
+0.052114810794591904
+---> Comparing ground truth (target) with none mesh (source)
+0.012226708233356476
+
+Loading file exports/tsdf/agapanthus/tsdf_mesh.ply with the following parameters:
+{}
+
+=== Mesh Statistics ===
+128810 faces
+67402 vertices
+=======================
+
+
+
+---> Comparing poisson mesh (target) with ground truth (source)
+0.016969967633485794
+
+
+
+---> Comparing ground truth (target) with poisson mesh (source)
+0.012302245944738388
+
+
+
+Running none: stopping after cleaning stage
+{'cleaning': 'none', 'clustering': 'sample', 'smoothing': 'depth', 'post_processing': 'close_holes', 'all': 'default'}
+No cleaning (process only)
+
+Saving file /home/gldanoob/dev/nerfstudio_dev/exports/tsdf/agapanthus/none.ply with the following parameters:
+{'binary': True}
+
+Finished in 0.06 seconds
+
+---> Comparing none mesh (target) with ground truth (source)
+0.016969967633485794
+---> Comparing ground truth (target) with none mesh (source)
+0.012302245944738388
+
+Loading file exports/tsdf/grass/tsdf_mesh.ply with the following parameters:
+{}
+
+=== Mesh Statistics ===
+124022 faces
+63509 vertices
+=======================
+
+
+
+---> Comparing poisson mesh (target) with ground truth (source)
+0.025424791499972343
+
+
+
+---> Comparing ground truth (target) with poisson mesh (source)
+0.010510471649467945
+
+
+
+Running none: stopping after cleaning stage
+{'cleaning': 'none', 'clustering': 'sample', 'smoothing': 'depth', 'post_processing': 'close_holes', 'all': 'default'}
+No cleaning (process only)
+
+Saving file /home/gldanoob/dev/nerfstudio_dev/exports/tsdf/grass/none.ply with the following parameters:
+{'binary': True}
+
+Finished in 0.06 seconds
+
+---> Comparing none mesh (target) with ground truth (source)
+0.025424791499972343
+---> Comparing ground truth (target) with none mesh (source)
+0.010510471649467945
+
+
+
+GT --> Mesh (10^-4):
++----------+---------------+--------------+----------+----------+----------+------------+----------+
+|  Method  | money_no_vase | tree_no_vase |   palm   |  palm2   |   bush   | agapanthus |  grass   |
++----------+---------------+--------------+----------+----------+----------+------------+----------+
+| Original |   161.1208    |   175.6527   | 216.3142 | 170.6930 | 521.1481 |  169.6997  | 254.2479 |
+|   none   |   161.1208    |   175.6527   | 216.3142 | 170.6930 | 521.1481 |  169.6997  | 254.2479 |
++----------+---------------+--------------+----------+----------+----------+------------+----------+
+
+
+
+Mesh --> GT (10^-4):
++----------+---------------+--------------+----------+----------+----------+------------+----------+
+|  Method  | money_no_vase | tree_no_vase |   palm   |  palm2   |   bush   | agapanthus |  grass   |
++----------+---------------+--------------+----------+----------+----------+------------+----------+
+| Original |   160.3053    |   131.9924   | 131.7236 | 118.2132 | 122.2671 |  123.0225  | 105.1047 |
+|   none   |   160.3053    |   131.9924   | 131.7236 | 118.2132 | 122.2671 |  123.0225  | 105.1047 |
++----------+---------------+--------------+----------+----------+----------+------------+----------+
+
+
+
+Runtime (s):
++--------+---------------+--------------+------+-------+------+------------+-------+
+| Method | money_no_vase | tree_no_vase | palm | palm2 | bush | agapanthus | grass |
++--------+---------------+--------------+------+-------+------+------------+-------+
+|  none  |     0.08      |     0.04     | 0.03 | 0.09  | 0.04 |    0.06    | 0.06  |
++--------+---------------+--------------+------+-------+------+------------+-------+

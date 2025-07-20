@@ -1,0 +1,17 @@
+{
+  "experiment_name": "palm",
+  "method_name": "instant-ngp-bounded",
+  "checkpoint": "outputs/palm/instant-ngp-bounded/2025-04-17_101806/nerfstudio_models/step-000029999.ckpt",
+  "results": {
+    "psnr": 17.588787078857422,
+    "psnr_std": 0.6105737090110779,
+    "ssim": 0.9053336977958679,
+    "ssim_std": 0.009603101760149002,
+    "lpips": 0.07681707292795181,
+    "lpips_std": 0.016423391178250313,
+    "num_rays_per_sec": 1914233.5,
+    "num_rays_per_sec_std": 351496.59375,
+    "fps": 1.6411466598510742,
+    "fps_std": 0.3013516664505005
+  }
+}

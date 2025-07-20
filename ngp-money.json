@@ -1,0 +1,17 @@
+{
+  "experiment_name": "money_no_vase",
+  "method_name": "instant-ngp-bounded",
+  "checkpoint": "outputs/money_no_vase/instant-ngp-bounded/2025-04-17_100405/nerfstudio_models/step-000029999.ckpt",
+  "results": {
+    "psnr": 30.016210556030273,
+    "psnr_std": 3.045358657836914,
+    "ssim": 0.9537125825881958,
+    "ssim_std": 0.01595880836248398,
+    "lpips": 0.04873402416706085,
+    "lpips_std": 0.016270790249109268,
+    "num_rays_per_sec": 1728496.75,
+    "num_rays_per_sec_std": 330179.90625,
+    "fps": 1.4819073677062988,
+    "fps_std": 0.28307604789733887
+  }
+}

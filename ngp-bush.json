@@ -1,0 +1,17 @@
+{
+  "experiment_name": "bush",
+  "method_name": "instant-ngp-bounded",
+  "checkpoint": "outputs/bush/instant-ngp-bounded/2025-04-17_110215/nerfstudio_models/step-000029999.ckpt",
+  "results": {
+    "psnr": 25.628931045532227,
+    "psnr_std": 2.6638171672821045,
+    "ssim": 0.9267900586128235,
+    "ssim_std": 0.013010391034185886,
+    "lpips": 0.06423315405845642,
+    "lpips_std": 0.012145671993494034,
+    "num_rays_per_sec": 1806210.0,
+    "num_rays_per_sec_std": 274662.09375,
+    "fps": 1.5485339164733887,
+    "fps_std": 0.2354784607887268
+  }
+}

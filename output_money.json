@@ -1,0 +1,17 @@
+{
+  "experiment_name": "money_no_vase",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs/money_no_vase/nerfacto/2025-03-26_155754/nerfstudio_models/step-000029999.ckpt",
+  "results": {
+    "psnr": 19.839574813842773,
+    "psnr_std": 1.510792851448059,
+    "ssim": 0.8888263702392578,
+    "ssim_std": 0.014817151241004467,
+    "lpips": 0.16598094999790192,
+    "lpips_std": 0.02625972218811512,
+    "num_rays_per_sec": 367983.0,
+    "num_rays_per_sec_std": 14411.5498046875,
+    "fps": 0.3154861032962799,
+    "fps_std": 0.012355579063296318
+  }
+}
