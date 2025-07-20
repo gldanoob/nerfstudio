@@ -1,0 +1,17 @@
+{
+  "experiment_name": "grass",
+  "method_name": "instant-ngp-bounded",
+  "checkpoint": "outputs/grass/instant-ngp-bounded/2025-04-17_111850/nerfstudio_models/step-000029999.ckpt",
+  "results": {
+    "psnr": 28.243270874023438,
+    "psnr_std": 0.8702116012573242,
+    "ssim": 0.933414876461029,
+    "ssim_std": 0.008575830608606339,
+    "lpips": 0.04879889637231827,
+    "lpips_std": 0.016056127846240997,
+    "num_rays_per_sec": 1757478.5,
+    "num_rays_per_sec_std": 248017.796875,
+    "fps": 1.5067545175552368,
+    "fps_std": 0.21263527870178223
+  }
+}

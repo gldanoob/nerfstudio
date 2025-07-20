@@ -1,0 +1,17 @@
+{
+  "experiment_name": "agapanthus",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs/agapanthus/nerfacto/2025-03-26_171329/nerfstudio_models/step-000029999.ckpt",
+  "results": {
+    "psnr": 18.03549575805664,
+    "psnr_std": 1.4420011043548584,
+    "ssim": 0.8410153388977051,
+    "ssim_std": 0.0252298004925251,
+    "lpips": 0.20297589898109436,
+    "lpips_std": 0.038958970457315445,
+    "num_rays_per_sec": 369480.09375,
+    "num_rays_per_sec_std": 17616.65625,
+    "fps": 0.31676962971687317,
+    "fps_std": 0.015103441663086414
+  }
+}

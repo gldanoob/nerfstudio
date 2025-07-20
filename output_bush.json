@@ -1,0 +1,17 @@
+{
+  "experiment_name": "bush",
+  "method_name": "nerfacto",
+  "checkpoint": "outputs/bush/nerfacto/2025-04-15_053150/nerfstudio_models/step-000029999.ckpt",
+  "results": {
+    "psnr": 18.773603439331055,
+    "psnr_std": 1.70802640914917,
+    "ssim": 0.855297863483429,
+    "ssim_std": 0.030374331399798393,
+    "lpips": 0.2182122766971588,
+    "lpips_std": 0.05995558574795723,
+    "num_rays_per_sec": 378793.1875,
+    "num_rays_per_sec_std": 8393.98828125,
+    "fps": 0.32475408911705017,
+    "fps_std": 0.007196494378149509
+  }
+}

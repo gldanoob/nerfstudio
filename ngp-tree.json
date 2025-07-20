@@ -1,0 +1,17 @@
+{
+  "experiment_name": "tree_no_vase",
+  "method_name": "instant-ngp-bounded",
+  "checkpoint": "outputs/tree_no_vase/instant-ngp-bounded/2025-04-17_095002/nerfstudio_models/step-000029999.ckpt",
+  "results": {
+    "psnr": 29.33066177368164,
+    "psnr_std": 3.453625440597534,
+    "ssim": 0.9607985019683838,
+    "ssim_std": 0.014132180251181126,
+    "lpips": 0.0422552265226841,
+    "lpips_std": 0.014614470303058624,
+    "num_rays_per_sec": 1982671.25,
+    "num_rays_per_sec_std": 322476.125,
+    "fps": 1.6998211145401,
+    "fps_std": 0.2764713168144226
+  }
+}

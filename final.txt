@@ -1,0 +1,27 @@
+{}
+=== Mesh Statistics ===
+1902759 faces
+960916 vertices
+=======================
+
+
+
+---> Comparing poisson mesh (target) with ground truth (source)
+{'RMS': 0.02068697288632393, 'diag_mesh_0': 2.929037094116211, 'diag_mesh_1': 3.1788259390609195, 'max': 0.11012055724859238, 'mean': 0.011517049744725227, 'min': 2.0652873899962287e-07, 'n_samples': 63249}
+
+
+
+---> Comparing ground truth (target) with poisson mesh (source)
+{'RMS': 0.01854785904288292, 'diag_mesh_0': 3.178825855255127, 'diag_mesh_1': 2.9290371179220105, 'max': 0.8202372193336487, 'mean': 0.008207254111766815, 'min': 4.965177158311462e-09, 'n_samples': 960916}
+
+
+
+Running default: stopping after all stage
+{'cleaning': 'z-score', 'clustering': 'sample', 'smoothing': 'depth', 'post_processing': 'close_holes'}
+Removing clusters with high z-score
+Mean: [ 0.03518238 -0.02301412  0.28571878]
+Std: 0.17528276781622953
+Sampled 10000 vertices for clustering
+
+Loading file exports/final/money_no_vase/poisson_mesh.ply with the following parameters:
+
